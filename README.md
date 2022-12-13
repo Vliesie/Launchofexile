@@ -57,10 +57,12 @@ The Script:
 - Copy the Script
 - Save the file as **'YourFilesname'.bat**
 - Change the File Paths to the Targets of your Exe Files or Shortcuts This means your Filepath and the Launchername.exe or just copy paste the Target of a shortcut.
+- Create a new AppName and appPath for every new application to launch make sure to call those new paths in the start /wait "" "%YourVariableNamehere%"
 
 
 #####  If you cant launch a file make sure of the following:
--Run the Script as an Administrator 
--Make sure if you have spaces inside of the names of your file path you wrap the file path in Quotations E.G "C:\Users\**YourUserName**\Documents\Launch Files\Trade.lnk" 
--Use a Shortcut and move the shortcuts into yourDocuments folder and use the target file path instead 
+
+ -Run the Script as an Administrator 
+- Make sure if you have spaces inside of the names of your file path you wrap the file path in Quotations E.G "C:\Users\**YourUserName**\Documents\Launch Files\Trade.lnk" 
+- Use a Shortcut and move the shortcuts into yourDocuments folder and use the target file path instead 
  
