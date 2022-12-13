@@ -16,6 +16,23 @@ Heres some updates to look forward to in the future:
 
 ------------
 
+If you Prefer AHK here is that example: The file extension should be .AHK 
+
+```shell
+shortcuts = [
+  "C:\Program Files\Shortcut1.lnk",
+  "C:\Program Files\Shortcut2.lnk",
+  "C:\Program Files\Shortcut3.lnk"
+]
+
+
+for index, shortcut in shortcuts
+{
+
+  Run *RunAs "%shortcut%"
+}
+```
+
 
 The Script:
 
