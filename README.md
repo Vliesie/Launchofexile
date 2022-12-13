@@ -62,7 +62,7 @@ The Script:
 
 #####  If you cant launch a file make sure of the following:
 
- -Run the Script as an Administrator 
-- Make sure if you have spaces inside of the names of your file path you wrap the file path in Quotations E.G "C:\Users\**YourUserName**\Documents\Launch Files\Trade.lnk" 
+- Run the Script as an Administrator 
+- Make sure if you have spaces inside of the names of your file path you wrap the file path in Quotations E.G "C:\Users\**YourUserName**\Documents\Launch Files\Trade.lnk"  
 - Use a Shortcut and move the shortcuts into yourDocuments folder and use the target file path instead 
  
